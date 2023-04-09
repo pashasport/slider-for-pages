@@ -1,0 +1,39 @@
+@media screen and (min-width: 1200px) {
+    .nav-list {
+        margin-left: 76px;
+    }
+    .mail {
+        display: flex;
+    }
+    .mail .item + .item {
+        margin-left: 40px;
+         margin-top: 0; 
+    }
+    .hero-section{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7) ), 
+        url(../images/people-office-hero.jpg);
+    }
+    .card-team .item + .item {
+        margin-left: 24px; 
+    }
+    .page-nav{
+        padding-bottom: 0;
+    }
+    /* ----for portfolio--- */
+    .button-list {
+        justify-content: center; 
+      }
+      .card-img{
+         gap: 48px 24px;  
+      }
+     
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) ,
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+.hero-section {
+ background-image: linear-gradient( rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7) ), 
+  url('../images/people-office@2x.jpg');
+}

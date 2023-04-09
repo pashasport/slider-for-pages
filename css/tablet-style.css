@@ -1,0 +1,135 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+.mail .item + .item{
+margin-left: 0;    
+margin-top: 4px;   
+} 
+.page-nav{
+ padding-bottom: 0;
+}
+.nav-list{
+ margin-left: 120px;   
+}
+.hero-section{
+    max-width: 768px;
+    max-height: 436px;
+    padding-top: 112px;
+    padding-bottom: 108px;
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7) ), 
+    url(../images.tablet/tabl-dark-bg.jpg);
+}
+.hero-section .hero-text{
+ margin-bottom: 40px;   
+}
+.upper-icon{
+    display: none;
+}
+.section-top {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .section-text .item {
+    width: 356px;
+}
+.section-text .subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+.section-text .item + .item {
+    margin-left: 0;
+}
+.section-text .item:nth-child(-n+2){
+    margin-bottom: 72px;
+}
+.section-text .item:nth-child(2n + 1){
+    margin-right: 24px;
+}
+.img-section{
+    display: none;
+}
+.section-team{
+    padding-top: 96px;
+    padding-bottom: 104px;
+   }
+   .card-team {
+    justify-content: center;
+}
+.card-team .item:nth-child(-n + 2){
+    margin-bottom: 64px;
+}
+.card-team .item:nth-child(2n) {
+    margin-left: 24px;
+  }
+  .customers-list {
+    flex-wrap: wrap;
+}
+.logo-list + .logo-list {
+ margin-left: 0; 
+}
+.customers-list {
+    max-width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-customer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.logo-list{
+    margin-right: 24px;
+    margin-bottom: 72px;
+}
+.logo-list:nth-child(3n) {
+    margin-right: 0;
+}
+.logo-list:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+.foot-media {
+    flex-wrap: wrap;
+}
+.footer-box {
+    margin-right: 24px;
+}
+.foot-social-link {
+    margin-right: 0;
+    max-width: 208px;
+}
+.footer-box {
+    margin-bottom: 72px;
+}
+.foot-media.conteiner {
+    max-width: calc(552px + (15px *2));
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+/* ------for portfolio----*/
+.button-list {
+     justify-content: center; 
+  }
+  .card-img{
+    
+    gap: 72px 24px;
+  }
+  .chapter {
+    width: 356px;
+  }
+  .section-portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+    /* background-color: aqua; */
+}
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 1199px) ,
+   screen and (min-resolution: 192dpi) and (max-width: 1199px),
+   screen and (min-resolution: 2dppx) and (max-width: 1199px) {
+  .hero-section {
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7) ), 
+     url('../images.tablet/tabl-dark-bg@2x.jpg');
+  }
